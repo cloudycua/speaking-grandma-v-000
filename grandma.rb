@@ -15,7 +15,7 @@
 def speak_to_grandma
   speak = gets.chomp
   if speak == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN"
+    puts "I LOVE YOU TOO PUMPKIN!"
   elsif speak.upcase == speak
     puts "NO, NOT SINCE 1938!"
   else
